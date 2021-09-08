@@ -8,6 +8,10 @@ console.log(spanKing.getAttribute("id"))
 console.log(spanKing.title)
 
 // setAttribute
-console.log(spanKing.setAttribute("id", "hfhfhfhfh")
+// console.log(spanKing.setAttribute("id", "hfhfhfhfh")
 
-)
+// removeAttribute
+// spanKing.removeAttribute("id")
+
+console.log(h1.dataset.longerName)
+
