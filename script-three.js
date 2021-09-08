@@ -6,3 +6,8 @@ const spanKing = document.querySelector("#king")
 console.log(spanKing.getAttribute("id"))
 // getAttribute can be omitted 
 console.log(spanKing.title)
+
+// setAttribute
+console.log(spanKing.setAttribute("id", "hfhfhfhfh")
+
+)
