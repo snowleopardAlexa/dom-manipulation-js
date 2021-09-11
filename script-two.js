@@ -1,7 +1,10 @@
 const body = document.body 
 const div = document.querySelector("div")
-const spanHi = document.querySelector("#kion")
-const spanBye = document.querySelector("#king")
+const spanKion = document.querySelector("#kion")
+const spanKing = document.querySelector("#king")
 
-spanBye.remove()
-div.append(spanBye)
+spanKing.remove()
+div.append(spanKing)
+
+// second method
+div.removeChild(spanKing)
