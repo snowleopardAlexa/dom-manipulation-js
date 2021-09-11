@@ -1,4 +1,5 @@
-// add/append elements to the page
+// APPEND (add) ELEMENTS TO THE PAGE
+
 const body = document.body 
 // appendChild and append are similar but with appendChild you can only append(add): div, spans, encor tags, NOT STRINGS
 // append will let you to append everything and STRINGS
@@ -21,3 +22,6 @@ const div = document.querySelector("div")
 console.log(div.textContent)
 console.log(div.innerText)
 
+// MODIFY HTML
+div.innerHTML ="<strong>Hello Kion!</strong>"
+body.append(div)
