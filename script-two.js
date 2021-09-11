@@ -8,3 +8,7 @@ div.append(spanKing)
 
 // second method
 div.removeChild(spanKing)
+
+// third method
+spanKing.remove()
+
