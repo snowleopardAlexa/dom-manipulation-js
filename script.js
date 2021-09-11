@@ -23,5 +23,11 @@ console.log(div.textContent)
 console.log(div.innerText)
 
 // MODIFY HTML
+// watch out! This might create a security problem
 div.innerHTML ="<strong>Hello Kion!</strong>"
+body.append(div)
+// other way
+const strong = document.createElement('strong')
+strong.innerText = 'Hello Kion!'
+div.append(strong)
 body.append(div)
