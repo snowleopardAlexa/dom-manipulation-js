@@ -10,4 +10,14 @@ const div = document.createElement('div')
 // now we add div to the page
 body.append(div)
 // how to show the added element on the page
-div.innerText = "Hello, I just appended element and showed it on the page"
+// div.innerText = "Hello, I just appended element and showed it on the page"
+// div.textContent = 'Kion is my lion.'
+
+const div = document.querySelector("div")
+
+// What is the difference between textContent and innerText?
+// textContent --> it displays all indentation - how it is exactly written in HTML
+// innerText --> it displays HTML without extra spacing, it goes with a flow
+console.log(div.textContent)
+console.log(div.innerText)
+
