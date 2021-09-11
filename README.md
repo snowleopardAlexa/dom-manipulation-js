@@ -1,0 +1,1 @@
+JavaScript 14 methods of DOM manipulation
