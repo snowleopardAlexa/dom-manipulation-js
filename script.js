@@ -9,3 +9,5 @@ body.append("Hello Alexa", "Bye")
 const div = document.createElement('div')
 // now we add div to the page
 body.append(div)
+// how to show the added element on the page
+div.innerText = "Hello, I just appended element and showed it on the page"
